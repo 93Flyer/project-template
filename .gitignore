@@ -181,3 +181,9 @@ cython_debug/
 .cursorindexingignore
 
 data/raw/, data/processed/, *.csv, *.parquet
+
+dbt/target/
+dbt/logs/
+dbt/dbt_packages/
+*.json
+!package.json
